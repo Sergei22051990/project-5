@@ -1,0 +1,77 @@
+@mixin container-style {
+    width: auto;
+    padding: 0px 50px;
+}
+
+
+@media (max-width: 1160px) {
+    .container {
+    @include container-style;
+    }
+}
+
+@mixin container-auto {
+    width: auto;
+}
+
+@media (max-width: 1136px) {
+    .container {
+       @include container-auto;
+    }
+}
+
+@media (max-width: 1110px) {
+    .container {
+        @include container-auto;
+    }
+}
+
+@media (max-width: 1050px) {
+    .container {
+        @include container-auto;
+    }
+}
+
+@media (max-width: 1010px) {
+    .container {
+        @include container-auto;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        @include container-auto;
+    }
+}
+
+@media (max-width: 960px) {
+    .container {
+        @include container-auto;
+    }
+}
+
+@media (max-width: 910px) {
+    .container {
+        @include container-auto;
+    }
+}
+
+@media (max-width: 870px) {
+    .container {
+        @include container-auto;
+    }
+}
+
+@media (max-width: 816px) {
+    .container {
+        @include container-auto;
+    }
+}
+
+@media (max-width: 778px) {
+    .container {
+        @include container-auto;
+    }
+}
+
+
